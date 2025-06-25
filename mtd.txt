@@ -1,0 +1,40 @@
+ # # Clica no botão de Date Range, e seleciona Month To Date
+        # # pg.doubleClick(x=320, y=550)
+        # pg.doubleClick(x=345, y=540)
+        # time.sleep(1)
+        # pg.typewrite('MTD')
+        # pg.press('enter')
+        # time.sleep(1)
+
+        # # export = pg.locateCenterOnScreen("Export.png", confidence=0.9)
+        # # pg.click(export)
+        # # pg.click(x=140, y=530) # Clicando no botão Export
+        # pg.click(x=165, y=520)
+        # time.sleep(1)
+        # pg.click(x=150, y=560)# Clicando no botão Current View
+        # pg.click(x=180, y=550)
+        # time.sleep(5.5)
+
+        # excel = pg.locateCenterOnScreen("CliqueExcel.png", confidence=0.9)
+        # pg.click(excel)
+        # time.sleep(1)
+        # pg.hotkey('fn','f12')
+        # time.sleep(1.5)
+
+        # exp = pg.locateCenterOnScreen("BarraPesquisaExploradorDeArquivo.png", confidence=0.7)
+        # pg.doubleClick(exp)
+        # pg.hotkey('ctrl','a')
+        # pg.typewrite('Z:\Inteligencia Institucional\BASM - BBG')
+        # pg.press('enter')
+        # time.sleep(1)
+
+        # nome = pg.locateCenterOnScreen("BarraNomeArquivo.png", confidence=0.7)
+        # pg.doubleClick(nome)
+
+        # pg.typewrite(f'BASM MonthToDate  - {mercado} - {hoje}')
+        # pg.press('enter')
+
+        # fechar_excel = pg.locateCenterOnScreen("FecharExcel.png", confidence=0.7)
+        # pg.click(fechar_excel)
+
+    # pg.doubleClick(x=320, y=550)
